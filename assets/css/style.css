@@ -54,7 +54,7 @@ img {
 .home_area {
   background: url(../img/hero_bg.png) no-repeat center;
   background-size: cover;
-  height: 90svh;
+  min-height: 90svh;
 }
 .home_area > .container {
   height: 100%;
@@ -163,7 +163,7 @@ img {
   background-attachment: fixed;
 }
 .discount_con_main {
-  height: 60svh;
+  min-height: 60svh;
   display: flex;
   align-items: center;
 }
@@ -205,7 +205,7 @@ img {
   background-attachment: fixed;
 }
 .discount_area.membership .discount_con_main {
-  height: 70svh;
+  min-height: 70svh;
   gap: 30px;
 }
 .membership_card img {
