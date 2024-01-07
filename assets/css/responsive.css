@@ -1,0 +1,100 @@
+@media (max-width: 1199.98px) {
+  .item_info h4 {
+    text-align: center;
+  }
+  .price_nd_cart {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home_con {
+    margin-left: 0;
+    text-align: center;
+  }
+  .membership_card {
+    display: none;
+  }
+  .bottom_con:nth-child(2) {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .collapse_menu {
+    display: block;
+  }
+  .menu_con_main {
+    position: relative;
+  }
+  .menu_ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .menu_ul li a {
+    padding: 10px 0;
+    display: block;
+    text-align: right;
+  }
+
+  .menu_item {
+    flex: 1 0 calc(33.33% - 48px);
+  }
+  .collapse_menu {
+    padding: 6px 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+  }
+  .collapse_menu:has(.collapse_menu_active:checked) ~ .menu_ul {
+    display: block;
+  }
+  .menu_btn {
+    text-align: center !important;
+  }
+  .discount_con h3 {
+    font-size: 68px;
+  }
+  .bottom_con_area {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .bottom_con:nth-child(2) {
+    width: 75%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .home_con h1 {
+    font-size: 58px;
+  }
+  .menu_item_main {
+    flex-direction: column;
+  }
+  .discount_con h3 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .discount_con_main.location h4 {
+    font-size: 28px;
+  }
+  .discount_con_main.location h3 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .newsletter_con button {
+    width: 40%;
+  }
+  .bottom_con {
+    flex-direction: column;
+  }
+}
