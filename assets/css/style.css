@@ -54,7 +54,7 @@ img {
 .home_area {
   background: url(../img/hero_bg.png) no-repeat center;
   background-size: cover;
-  min-height: 90svh;
+  height: 90svh;
 }
 .home_area > .container {
   height: 100%;
